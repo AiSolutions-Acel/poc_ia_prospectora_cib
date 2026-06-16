@@ -1,0 +1,125 @@
+Base de Datos,Pregunta,Respuesta,Embedding Latency (ms),Vector Search Latency (ms),LLM Generation Latency (ms),End-to-End Latency (ms),Documentos Recuperados
+pinecone,¿Qué convenios tiene Cibertec con la Policía Nacional del Perú (PNP)?,"No cuento con información sobre convenios específicos entre Cibertec y la Policía Nacional del Perú (PNP) en el contexto proporcionado.
+
+El documento menciona que Cibertec tiene convenios y alianzas internacionales con organizaciones como CISCO Academy y la Universidad del Valle de México, así como convenios de continuidad de estudios con universidades nacionales y extranjeras. Sin embargo, no se especifica ningún acuerdo con la PNP.
+
+Para obtener esta información, le recomiendo contactar directamente con Cibertec.",992.0045000035316,853.1086999864783,1945.7567000063136,3790.8698999963235,5
+s3vectors,¿Qué convenios tiene Cibertec con la Policía Nacional del Perú (PNP)?,"No cuento con información sobre convenios específicos entre Cibertec y la Policía Nacional del Perú (PNP) en el contexto proporcionado.
+
+El documento menciona que Cibertec tiene convenios y alianzas internacionales con organizaciones como CISCO Academy y la Universidad del Valle de México, así como convenios de continuidad de estudios con universidades nacionales y extranjeras. Sin embargo, no se especifica ningún acuerdo con la PNP.
+
+Para obtener esta información, le recomiendo contactar directamente con Cibertec.",992.0045000035316,1023.2422999979462,1938.249899991206,3953.4966999926837,5
+pinecone,¿Cuáles son los requisitos y el porcentaje de descuento de la Beca Socioeconómica?,"# Requisitos de la Beca Socioeconómica
+
+Los requisitos para acceder a la Beca Socioeconómica son:
+
+✓ Haber cursado, por lo menos, un periodo académico en Cibertec
+✓ Tener la condición de estudiante regular (carga académica mínima de 20 créditos)
+✓ No haber sido sancionado
+✓ Tener promedio ponderado mayor o igual a 15 y no tener cursos desaprobados en el ciclo
+✓ No contar con unidades didácticas desaprobadas en el módulo 1 del periodo académico en el que se encuentra matriculado al momento de la postulación
+✓ Estar cursando entre el 1er y 3er ciclo académico en el presente periodo
+
+## Porcentaje de Descuento
+
+Con respecto al porcentaje de descuento de la Beca Socioeconómica, **la información no está disponible en el contexto proporcionado**. El documento no especifica el porcentaje de descuento que otorga esta beca.",210.16489999601617,554.1176999977324,3159.228100004839,3923.5106999985874,5
+s3vectors,¿Cuáles son los requisitos y el porcentaje de descuento de la Beca Socioeconómica?,"# Requisitos de la Beca Socioeconómica
+
+Los requisitos para acceder a la Beca Socioeconómica son:
+
+✓ Haber cursado, por lo menos, un periodo académico en Cibertec
+✓ Tener la condición de estudiante regular (carga académica mínima de 20 créditos)
+✓ No haber sido sancionado
+✓ Tener promedio ponderado mayor o igual a 15 y no tener cursos desaprobados en el ciclo
+✓ No contar con unidades didácticas desaprobadas en el módulo 1 del periodo académico en el que se encuentra matriculado al momento de la postulación
+✓ Estar cursando entre el 1er y 3er ciclo académico en el presente periodo
+
+## Porcentaje de Descuento
+
+Con respecto al porcentaje de descuento de la Beca Socioeconómica, **la información no está disponible en el contexto proporcionado**. El documento no especifica el porcentaje de descuento que otorga esta beca.",210.16489999601617,172.71700000856072,3019.571199998609,3402.4531000031857,5
+pinecone,¿Qué beneficios de empleabilidad ofrece Cibertec a sus estudiantes y egresados?,"# Beneficios de Empleabilidad que ofrece Cibertec
+
+Cibertec ofrece los siguientes beneficios de empleabilidad:
+
+## **Resultados Comprobados**
+- 9 de cada 10 egresados consiguen trabajo en su primer año de egreso.
+
+## **Certificaciones y Formación**
+- Certificaciones modulares gratuitas cada 2 ciclos que fortalecen el perfil profesional.
+- Cursos de empleabilidad incluidos en todas las mallas curriculares.
+- Cursos prácticos enfocados en casos reales desde el primer ciclo.
+
+## **Portal de Empleabilidad Exclusivo**
+- Registro de CV y portafolio desde el primer ciclo.
+- Acceso a ofertas exclusivas de empleo.
+- Administración de postulaciones.
+- Evaluación de competencias.
+- Participación en eventos y ferias de empleabilidad.
+
+## **Talleres y Asesorías**
+- Orientación para diseñar un buen CV.
+- Asesorías para conseguir entrevistas.
+
+## **Ferias y Eventos**
+- Eventos de empleabilidad durante todo el año orientados a conectar, capacitar y ofrecer oportunidades de empleo.
+
+## **Continuidad de Estudios**
+- Convenios con universidades nacionales e internacionales para obtener grados universitarios.
+- Convalidación automática de estudios realizados en Cibertec.
+- Descuentos especiales para egresados.",205.07070000167005,553.7930999998935,3900.1553999987664,4659.01920000033,5
+s3vectors,¿Qué beneficios de empleabilidad ofrece Cibertec a sus estudiantes y egresados?,"# Beneficios de Empleabilidad que ofrece Cibertec
+
+Cibertec ofrece los siguientes beneficios de empleabilidad:
+
+## **Resultados Comprobados**
+- 9 de cada 10 egresados consiguen trabajo en su primer año de egreso.
+
+## **Certificaciones y Formación**
+- Certificaciones modulares gratuitas cada 2 ciclos que fortalecen el perfil profesional.
+- Cursos de empleabilidad incluidos en todas las mallas curriculares.
+- Cursos prácticos enfocados en casos reales desde el primer ciclo.
+
+## **Portal de Empleabilidad Exclusivo**
+- Registro de CV y portafolio desde el primer ciclo.
+- Acceso a ofertas exclusivas de empleo.
+- Administración de postulaciones.
+- Evaluación de competencias.
+- Participación en eventos y ferias de empleabilidad.
+
+## **Talleres y Asesorías**
+- Orientación para diseñar un buen CV.
+- Asesorías para conseguir entrevistas.
+
+## **Ferias y Eventos**
+- Eventos de empleabilidad durante todo el año orientados a conectar, capacitar y ofrecer oportunidades de empleo.
+
+## **Continuidad de Estudios**
+- Convenios con universidades nacionales e internacionales para obtener grados universitarios.
+- Convalidación automática de estudios realizados en Cibertec.
+- Descuentos especiales para egresados.",205.07070000167005,176.03479999525007,3645.7735000003595,4026.8789999972796,5
+pinecone,¿Qué convenios internacionales tiene Cibertec para la carrera de computación?,"Basándome en el contexto proporcionado, puedo indicar que Cibertec cuenta con **convenios y alianzas internacionales** respaldados por:
+
+- **CISCO Academy**
+- **Universidad del Valle de México**
+
+Estos programas fortalecen la calidad académica, garantizan estándares internacionales y amplían las oportunidades de desarrollo profesional.
+
+Sin embargo, el contexto no especifica convenios internacionales exclusivos o particulares para la carrera de computación. La información disponible presenta estos convenios de manera general para los programas de Cibertec.",235.5671999976039,604.8271000036038,2145.4988999903435,2985.8931999915512,5
+s3vectors,¿Qué convenios internacionales tiene Cibertec para la carrera de computación?,"Basándome en el contexto proporcionado, puedo indicar que Cibertec cuenta con **convenios y alianzas internacionales estratégicas** como:
+
+- **CISCO Academy**
+- **Universidad del Valle de México**
+
+Estos programas fortalecen la calidad académica, garantizan estándares internacionales y amplían las oportunidades de desarrollo profesional.
+
+Sin embargo, el contexto no especifica qué convenios aplican específicamente a la carrera de computación. Para obtener información detallada sobre los convenios internacionales particulares para esa carrera, te recomendaría contactar directamente con Cibertec.",235.5671999976039,171.84229999838863,2221.2493999977596,2628.658899993752,5
+pinecone,¿Qué convenios ofrece Cibertec con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas?,"No cuento con información en el contexto proporcionado sobre convenios que Cibertec ofrezca con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas.
+
+El contexto menciona que Cibertec cuenta con convenios y alianzas internacionales como CISCO Academy y la Universidad del Valle de México, así como acuerdos con instituciones como Kia & Nissan, pero no incluye información específica sobre convenios con entidades de defensa o militares.
+
+Para obtener esta información, le recomiendo contactar directamente con Cibertec a través de sus canales oficiales.",206.18049999757204,113.82009999942966,1938.0837000062456,2258.0843000032473,5
+s3vectors,¿Qué convenios ofrece Cibertec con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas?,"No cuento con información en el contexto proporcionado sobre convenios que Cibertec ofrezca con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas.
+
+El contexto menciona que Cibertec cuenta con convenios y alianzas internacionales como CISCO Academy y la Universidad del Valle de México, así como acuerdos con instituciones como Kia & Nissan, pero no incluye información específica sobre convenios con entidades de defensa o militares.
+
+Para obtener esta información, le recomiendo contactar directamente con Cibertec a través de sus canales oficiales.",206.18049999757204,178.2318000041414,1861.1543999868445,2245.566699988558,5

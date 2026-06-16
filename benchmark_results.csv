@@ -1,0 +1,134 @@
+Base de Datos,Pregunta,Respuesta,Latencia Recuperación (ms),Latencia Total (ms),Número Reescrituras,Logs de Ejecución
+pinecone,¿Qué convenios tiene Cibertec con la Policía Nacional del Perú (PNP)?,"Lo siento, no he podido encontrar información relevante en el repositorio para responder a tu pregunta.",778.3544063568115,19399.533987045288,2,"[pinecone] Recuperados 5 documentos en 2174.34ms para: '¿Qué convenios tiene Cibertec con la Policía Nacional del Perú (PNP)?'
+Evaluador de Docs: 0 / 5 calificados como útiles.
+Reescritura de Consulta: '¿Qué convenios tiene Cibertec con la Policía Nacional del Perú (PNP)?' -> 'convenios acuerdos asociaciones Cibertec Policía Nacional Perú PNP colaboración institucional' (Intento 1)
+[pinecone] Recuperados 5 documentos en 907.77ms para: 'convenios acuerdos asociaciones Cibertec Policía Nacional Perú PNP colaboración institucional'
+Evaluador de Docs: 0 / 5 calificados como útiles.
+Reescritura de Consulta: 'convenios acuerdos asociaciones Cibertec Policía Nacional Perú PNP colaboración institucional' -> 'Convenios de colaboración institucional entre Cibertec y la Policía Nacional del Perú PNP para programas de capacitación y asociaciones estratégicas' (Intento 2)
+[pinecone] Recuperados 5 documentos en 778.35ms para: 'Convenios de colaboración institucional entre Cibertec y la Policía Nacional del Perú PNP para programas de capacitación y asociaciones estratégicas'
+Evaluador de Docs: 0 / 5 calificados como útiles.
+Sin documentos válidos. Respuesta por defecto generada."
+pinecone,¿Cuáles son los requisitos y el porcentaje de descuento de la Beca Socioeconómica?,"# Requisitos de la Beca Socioeconómica
+
+Según el contexto proporcionado, los requisitos son:
+
+✓ Haber cursado, por lo menos, un periodo académico en Cibertec
+✓ Tener la condición de estudiante regular (carga académica mínima de 20 créditos)
+✓ No haber sido sancionado
+✓ Tener promedio ponderado mayor o igual a 15 y no tener cursos desaprobados en el ciclo
+✓ No contar con unidades didácticas desaprobadas en el módulo 1 del periodo académico en el que se encuentra matriculado al momento de la postulación
+✓ Estar cursando entre el 1er y 3er ciclo académico en el presente periodo
+
+## Porcentaje de descuento
+
+No cuento con información en el contexto proporcionado sobre el porcentaje de descuento específico de la Beca Socioeconómica. Le recomiendo contactar directamente a Cibertec a través de Contacto Cibertec para obtener estos detalles.",763.453483581543,28380.319595336914,2,"[pinecone] Recuperados 5 documentos en 339.38ms para: '¿Cuáles son los requisitos y el porcentaje de descuento de la Beca Socioeconómica?'
+Evaluador de Docs: 2 / 5 calificados como útiles.
+Respuesta generada a partir del contexto.
+Reescritura de Consulta: '¿Cuáles son los requisitos y el porcentaje de descuento de la Beca Socioeconómica?' -> 'Requisitos de elegibilidad y porcentaje de descuento de la Beca Socioeconómica criterios económicos condiciones' (Intento 1)
+[pinecone] Recuperados 5 documentos en 791.27ms para: 'Requisitos de elegibilidad y porcentaje de descuento de la Beca Socioeconómica criterios económicos condiciones'
+Evaluador de Docs: 2 / 5 calificados como útiles.
+Respuesta generada a partir del contexto.
+Reescritura de Consulta: 'Requisitos de elegibilidad y porcentaje de descuento de la Beca Socioeconómica criterios económicos condiciones' -> '¿Cuáles son los criterios de elegibilidad económica y el porcentaje de descuento aplicable en la Beca Socioeconómica?' (Intento 2)
+[pinecone] Recuperados 5 documentos en 763.45ms para: '¿Cuáles son los criterios de elegibilidad económica y el porcentaje de descuento aplicable en la Beca Socioeconómica?'
+Evaluador de Docs: 2 / 5 calificados como útiles.
+Respuesta generada a partir del contexto."
+pinecone,¿Qué beneficios de empleabilidad ofrece Cibertec a sus estudiantes y egresados?,"# Beneficios de Empleabilidad que ofrece Cibertec
+
+Cibertec ofrece los siguientes beneficios de empleabilidad:
+
+## Resultados Comprobados
+- **9 de cada 10 egresados** consiguen trabajo en su primer año de egreso.
+
+## Certificaciones y Formación
+- Certificaciones modulares cada 2 ciclos (totalmente gratuitas) que fortalecen el perfil profesional.
+- Cursos de empleabilidad incluidos en todas las mallas curriculares.
+- Cursos prácticos enfocados en casos reales desde el primer ciclo.
+
+## Portal de Empleabilidad Exclusivo
+Disponible desde el primer ciclo, permite:
+- Registrar CV y portafolio
+- Postular a ofertas exclusivas
+- Administrar postulaciones
+- Evaluar competencias
+- Participar en eventos y ferias
+
+## Talleres y Asesorías
+- Orientación para diseñar un buen CV
+- Asesoría para conseguir entrevistas
+
+## Ferias y Eventos
+- Eventos de empleabilidad durante todo el año orientados a conectar, capacitar y dar oportunidades de empleo.
+
+## Continuidad de Estudios
+- Convenios con universidades nacionales e internacionales para que egresados obtengan grados universitarios con convalidación automática de estudios.",765.6974792480469,14023.037195205688,0,"[pinecone] Recuperados 5 documentos en 765.70ms para: '¿Qué beneficios de empleabilidad ofrece Cibertec a sus estudiantes y egresados?'
+Evaluador de Docs: 5 / 5 calificados como útiles.
+Respuesta generada a partir del contexto."
+pinecone,¿Qué convenios internacionales tiene Cibertec para la carrera de computación?,"Según el contexto proporcionado, CIBERTEC cuenta con convenios internacionales respaldados por aliados estratégicos como **CISCO Academy** y la **Universidad del Valle de México**, que fortalecen la calidad académica y garantizan estándares internacionales.
+
+Sin embargo, el documento no especifica convenios internacionales exclusivos para la carrera de computación en particular. Lo que sí se menciona es que CIBERTEC ofrece **convenios de continuidad con universidades nacionales y extranjeras** para sus egresados, permitiéndoles obtener grados universitarios en Perú o en el extranjero con duraciones de 1 a 3 años.
+
+Para obtener información más detallada sobre convenios específicos para la carrera de computación, le recomendaría contactar directamente con CIBERTEC.",776.106595993042,30978.499174118042,2,"[pinecone] Recuperados 5 documentos en 710.91ms para: '¿Qué convenios internacionales tiene Cibertec para la carrera de computación?'
+Evaluador de Docs: 3 / 5 calificados como útiles.
+Respuesta generada a partir del contexto.
+Reescritura de Consulta: '¿Qué convenios internacionales tiene Cibertec para la carrera de computación?' -> 'convenios acuerdos internacionales Cibertec carrera computación ingeniería sistemas alianzas universidades extranjero movilidad estudiantil intercambio académico' (Intento 1)
+[pinecone] Recuperados 5 documentos en 744.25ms para: 'convenios acuerdos internacionales Cibertec carrera computación ingeniería sistemas alianzas universidades extranjero movilidad estudiantil intercambio académico'
+Evaluador de Docs: 2 / 5 calificados como útiles.
+Respuesta generada a partir del contexto.
+Reescritura de Consulta: 'convenios acuerdos internacionales Cibertec carrera computación ingeniería sistemas alianzas universidades extranjero movilidad estudiantil intercambio académico' -> '¿Cuáles son los convenios internacionales y acuerdos de movilidad estudiantil que ofrece Cibertec para estudiantes de carreras de Computación e Ingeniería de Sistemas con universidades extranjeras?' (Intento 2)
+[pinecone] Recuperados 5 documentos en 776.11ms para: '¿Cuáles son los convenios internacionales y acuerdos de movilidad estudiantil que ofrece Cibertec para estudiantes de carreras de Computación e Ingeniería de Sistemas con universidades extranjeras?'
+Evaluador de Docs: 2 / 5 calificados como útiles.
+Respuesta generada a partir del contexto."
+pinecone,¿Qué convenios ofrece Cibertec con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas?,"Lo siento, no he podido encontrar información relevante en el repositorio para responder a tu pregunta.",724.8396873474121,18970.165729522705,2,"[pinecone] Recuperados 5 documentos en 777.40ms para: '¿Qué convenios ofrece Cibertec con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas?'
+Evaluador de Docs: 0 / 5 calificados como útiles.
+Reescritura de Consulta: '¿Qué convenios ofrece Cibertec con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas?' -> 'Convenios acuerdos Cibertec Ministerio Defensa MINDEF Fuerzas Armadas capacitación formación militar defensa nacional' (Intento 1)
+[pinecone] Recuperados 5 documentos en 728.44ms para: 'Convenios acuerdos Cibertec Ministerio Defensa MINDEF Fuerzas Armadas capacitación formación militar defensa nacional'
+Evaluador de Docs: 0 / 5 calificados como útiles.
+Reescritura de Consulta: 'Convenios acuerdos Cibertec Ministerio Defensa MINDEF Fuerzas Armadas capacitación formación militar defensa nacional' -> '¿Cuáles son los convenios y acuerdos de colaboración entre Cibertec y el Ministerio de Defensa para programas de capacitación y formación militar en defensa nacional?' (Intento 2)
+[pinecone] Recuperados 5 documentos en 724.84ms para: '¿Cuáles son los convenios y acuerdos de colaboración entre Cibertec y el Ministerio de Defensa para programas de capacitación y formación militar en defensa nacional?'
+Evaluador de Docs: 0 / 5 calificados como útiles.
+Sin documentos válidos. Respuesta por defecto generada."
+s3vectors,¿Qué convenios tiene Cibertec con la Policía Nacional del Perú (PNP)?,"Lo siento, no he podido encontrar información relevante en el repositorio para responder a tu pregunta.",436.0034465789795,4349.271297454834,2,"[s3vectors] Recuperados 0 documentos en 1446.63ms para: '¿Qué convenios tiene Cibertec con la Policía Nacional del Perú (PNP)?'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: '¿Qué convenios tiene Cibertec con la Policía Nacional del Perú (PNP)?' -> 'convenios acuerdos asociaciones Cibertec Policía Nacional Perú PNP colaboración institucional' (Intento 1)
+[s3vectors] Recuperados 0 documentos en 477.27ms para: 'convenios acuerdos asociaciones Cibertec Policía Nacional Perú PNP colaboración institucional'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: 'convenios acuerdos asociaciones Cibertec Policía Nacional Perú PNP colaboración institucional' -> 'Convenios de colaboración institucional entre Cibertec y la Policía Nacional del Perú PNP para programas de capacitación y asociaciones estratégicas' (Intento 2)
+[s3vectors] Recuperados 0 documentos en 436.00ms para: 'Convenios de colaboración institucional entre Cibertec y la Policía Nacional del Perú PNP para programas de capacitación y asociaciones estratégicas'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Sin documentos válidos. Respuesta por defecto generada."
+s3vectors,¿Cuáles son los requisitos y el porcentaje de descuento de la Beca Socioeconómica?,"Lo siento, no he podido encontrar información relevante en el repositorio para responder a tu pregunta.",481.8432331085205,3991.323709487915,2,"[s3vectors] Recuperados 0 documentos en 460.94ms para: '¿Cuáles son los requisitos y el porcentaje de descuento de la Beca Socioeconómica?'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: '¿Cuáles son los requisitos y el porcentaje de descuento de la Beca Socioeconómica?' -> 'Requisitos de elegibilidad y porcentaje de descuento de la Beca Socioeconómica criterios económicos condiciones' (Intento 1)
+[s3vectors] Recuperados 0 documentos en 364.75ms para: 'Requisitos de elegibilidad y porcentaje de descuento de la Beca Socioeconómica criterios económicos condiciones'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: 'Requisitos de elegibilidad y porcentaje de descuento de la Beca Socioeconómica criterios económicos condiciones' -> '¿Cuáles son los criterios de elegibilidad económica y el porcentaje de descuento aplicable en la Beca Socioeconómica?' (Intento 2)
+[s3vectors] Recuperados 0 documentos en 481.84ms para: '¿Cuáles son los criterios de elegibilidad económica y el porcentaje de descuento aplicable en la Beca Socioeconómica?'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Sin documentos válidos. Respuesta por defecto generada."
+s3vectors,¿Qué beneficios de empleabilidad ofrece Cibertec a sus estudiantes y egresados?,"Lo siento, no he podido encontrar información relevante en el repositorio para responder a tu pregunta.",413.3644104003906,3592.1592712402344,2,"[s3vectors] Recuperados 0 documentos en 385.36ms para: '¿Qué beneficios de empleabilidad ofrece Cibertec a sus estudiantes y egresados?'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: '¿Qué beneficios de empleabilidad ofrece Cibertec a sus estudiantes y egresados?' -> 'oportunidades laborales empleabilidad inserción laboral bolsa de trabajo intermediación empresarial Cibertec egresados profesionales competencias laborales colocación empleo' (Intento 1)
+[s3vectors] Recuperados 0 documentos en 384.04ms para: 'oportunidades laborales empleabilidad inserción laboral bolsa de trabajo intermediación empresarial Cibertec egresados profesionales competencias laborales colocación empleo'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: 'oportunidades laborales empleabilidad inserción laboral bolsa de trabajo intermediación empresarial Cibertec egresados profesionales competencias laborales colocación empleo' -> '¿Cuáles son las oportunidades de empleo y programas de inserción laboral disponibles para egresados de Cibertec, considerando sus competencias profesionales y la intermediación con empresas?' (Intento 2)
+[s3vectors] Recuperados 0 documentos en 413.36ms para: '¿Cuáles son las oportunidades de empleo y programas de inserción laboral disponibles para egresados de Cibertec, considerando sus competencias profesionales y la intermediación con empresas?'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Sin documentos válidos. Respuesta por defecto generada."
+s3vectors,¿Qué convenios internacionales tiene Cibertec para la carrera de computación?,"Lo siento, no he podido encontrar información relevante en el repositorio para responder a tu pregunta.",375.1215934753418,3455.066204071045,2,"[s3vectors] Recuperados 0 documentos en 376.80ms para: '¿Qué convenios internacionales tiene Cibertec para la carrera de computación?'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: '¿Qué convenios internacionales tiene Cibertec para la carrera de computación?' -> 'convenios acuerdos internacionales Cibertec carrera computación ingeniería sistemas alianzas universidades extranjero movilidad estudiantil intercambio académico' (Intento 1)
+[s3vectors] Recuperados 0 documentos en 396.44ms para: 'convenios acuerdos internacionales Cibertec carrera computación ingeniería sistemas alianzas universidades extranjero movilidad estudiantil intercambio académico'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: 'convenios acuerdos internacionales Cibertec carrera computación ingeniería sistemas alianzas universidades extranjero movilidad estudiantil intercambio académico' -> '¿Cuáles son los convenios internacionales y acuerdos de movilidad estudiantil que ofrece Cibertec para estudiantes de carreras de Computación e Ingeniería de Sistemas con universidades extranjeras?' (Intento 2)
+[s3vectors] Recuperados 0 documentos en 375.12ms para: '¿Cuáles son los convenios internacionales y acuerdos de movilidad estudiantil que ofrece Cibertec para estudiantes de carreras de Computación e Ingeniería de Sistemas con universidades extranjeras?'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Sin documentos válidos. Respuesta por defecto generada."
+s3vectors,¿Qué convenios ofrece Cibertec con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas?,"Lo siento, no he podido encontrar información relevante en el repositorio para responder a tu pregunta.",372.9379177093506,3541.0752296447754,2,"[s3vectors] Recuperados 0 documentos en 470.82ms para: '¿Qué convenios ofrece Cibertec con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas?'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: '¿Qué convenios ofrece Cibertec con el Ministerio de Defensa (MINDEF) o Fuerzas Armadas?' -> 'Convenios acuerdos Cibertec Ministerio Defensa MINDEF Fuerzas Armadas capacitación formación militar defensa nacional' (Intento 1)
+[s3vectors] Recuperados 0 documentos en 379.31ms para: 'Convenios acuerdos Cibertec Ministerio Defensa MINDEF Fuerzas Armadas capacitación formación militar defensa nacional'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Reescritura de Consulta: 'Convenios acuerdos Cibertec Ministerio Defensa MINDEF Fuerzas Armadas capacitación formación militar defensa nacional' -> '¿Cuáles son los convenios y acuerdos de colaboración entre Cibertec y el Ministerio de Defensa para programas de capacitación y formación militar en defensa nacional?' (Intento 2)
+[s3vectors] Recuperados 0 documentos en 372.94ms para: '¿Cuáles son los convenios y acuerdos de colaboración entre Cibertec y el Ministerio de Defensa para programas de capacitación y formación militar en defensa nacional?'
+Evaluador de Docs: 0 / 0 calificados como útiles.
+Sin documentos válidos. Respuesta por defecto generada."
