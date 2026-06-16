@@ -1,0 +1,15 @@
+services:
+  cibe-api:
+    build: .
+    container_name: cibertec-api
+    ports:
+      - "8000:8000"
+    environment:
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN:-}
+      - AWS_DEFAULT_REGION=us-east-1
+      - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+    env_file:
+      - .env
+    restart: unless-stopped
