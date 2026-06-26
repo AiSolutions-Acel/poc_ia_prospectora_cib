@@ -10,6 +10,7 @@ from system_prompts import (
     SYSTEM_PROMPT_EVALUATE_HALLUCINATION,
     SYSTEM_PROMPT_EVALUATE_ANSWER,
     SYSTEM_PROMPT_REWRITE_QUERY,
+    SYSTEM_PROMPT_ROUTE_INDEX,
 )
 import time
 
@@ -26,6 +27,7 @@ class AzureAgentState(TypedDict):
     search_latency_ms: float
     llm_latency_ms: float
     query_vector: List[float]
+    index_name: str
 
 class AzureRagOrchestrator:
     def __init__(self, llm_adapter: LlmPort, embedding_adapter: EmbeddingPort, vector_store_adapter: VectorStorePort):
@@ -64,6 +66,10 @@ class AzureRagOrchestrator:
         )
         return self.llm.generate(prompt, system_prompt=SYSTEM_PROMPT_REWRITE_QUERY).strip()
 
+    def _route_index(self, question: str) -> str:
+        prompt = f"Pregunta del usuario: {question}\n\nÍndice elegido:"
+        return self.llm.generate(prompt, system_prompt=SYSTEM_PROMPT_ROUTE_INDEX).strip()
+
     def build(self) -> StateGraph:
         workflow = StateGraph(AzureAgentState)
 
@@ -74,11 +80,28 @@ class AzureRagOrchestrator:
             logs.append(f"[Azure] Embedding generado en {latency:.2f}ms para: '{query[:50]}...'")
             return {"query_vector": vector, "embedding_latency_ms": latency, "logs": logs}
 
+        def node_route_index(state: AzureAgentState):
+            question = state["question"]
+            logs = list(state.get("logs", []))
+            
+            t0 = time.perf_counter()
+            index_name = self._route_index(question)
+            t1 = time.perf_counter()
+            
+            # Simple fallback if the LLM output is weird
+            valid_indexes = ["idx-institucional", "idx-argumentario", "idx-oferta-academica", "idx-convenios"]
+            if index_name not in valid_indexes:
+                index_name = "idx-institucional"  # default fallback
+                
+            logs.append(f"[Router] Índice seleccionado: {index_name} en {(t1-t0)*1000:.2f}ms")
+            return {"index_name": index_name, "logs": logs}
+
         def node_retrieve(state: AzureAgentState):
             query_vector = state["query_vector"]
+            index_name = state.get("index_name", "idx-institucional")
             logs = list(state.get("logs", []))
-            docs, latency = self.vector_store.retrieve(query_vector)
-            logs.append(f"[S3 Vectors] Recuperados {len(docs)} documentos en {latency:.2f}ms")
+            docs, latency = self.vector_store.retrieve(query_vector, index_name=index_name)
+            logs.append(f"[S3 Vectors] Recuperados {len(docs)} documentos del índice '{index_name}' en {latency:.2f}ms")
             return {"documents": docs, "search_latency_ms": latency, "logs": logs}
 
         def node_grade_documents(state: AzureAgentState):
@@ -141,12 +164,15 @@ class AzureRagOrchestrator:
             return "end"
 
         workflow.add_node("embed", node_embed)
+        workflow.add_node("route_index", node_route_index)
         workflow.add_node("retrieve", node_retrieve)
         workflow.add_node("grade_documents", node_grade_documents)
         workflow.add_node("generate", node_generate)
         workflow.add_node("rewrite_query", node_rewrite_query)
+        
         workflow.set_entry_point("embed")
-        workflow.add_edge("embed", "retrieve")
+        workflow.add_edge("embed", "route_index")
+        workflow.add_edge("route_index", "retrieve")
         workflow.add_edge("retrieve", "grade_documents")
         workflow.add_conditional_edges("grade_documents", route_after_grading, {"rewrite": "rewrite_query", "generate": "generate"})
         workflow.add_edge("rewrite_query", "retrieve")

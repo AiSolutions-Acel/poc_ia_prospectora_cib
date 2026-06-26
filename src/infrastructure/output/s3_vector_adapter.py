@@ -9,8 +9,9 @@ class S3VectorAdapter(VectorStorePort):
         self.bucket_name = bucket_name
         self.index_name = index_name
 
-    def retrieve(self, vector: List[float], top_k: int = 5) -> Tuple[List[Dict[str, Any]], float]:
+    def retrieve(self, vector: List[float], top_k: int = 5, index_name: str = None) -> Tuple[List[Dict[str, Any]], float]:
         t0 = time.perf_counter()
-        docs = self.s3_client.retrieve(vector, self.bucket_name, self.index_name, top_k)
+        target_index = index_name if index_name else self.index_name
+        docs = self.s3_client.retrieve(vector, self.bucket_name, target_index, top_k)
         t1 = time.perf_counter()
         return docs, (t1 - t0) * 1000

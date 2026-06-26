@@ -32,6 +32,12 @@ class Settings(BaseSettings):
     # S3 Vectors (Azure OpenAI bucket)
     s3vectors_azure_bucket_name: str = "poc-chat-prospect-cib"
     s3vectors_azure_index_name: str = "chat-cib-poc"
+    
+    # S3 Vectors Multi-Índice
+    s3vectors_idx_institucional: str = Field(default="idx-institucional", alias="S3VECTORS_IDX_INSTITUCIONAL")
+    s3vectors_idx_argumentario: str = Field(default="idx-argumentario", alias="S3VECTORS_IDX_ARGUMENTARIO")
+    s3vectors_idx_oferta_academica: str = Field(default="idx-oferta-academica", alias="S3VECTORS_IDX_OFERTA_ACADEMICA")
+    s3vectors_idx_convenios: str = Field(default="idx-convenios", alias="S3VECTORS_IDX_CONVENIOS")
 
     # RAG
     retrieval_top_k: int = 5
@@ -41,6 +47,9 @@ class Settings(BaseSettings):
     whatsapp_verify_token: str = os.environ.get("WHATSAPP_VERIFY_TOKEN", "cibertec-verify-token-2026")
     whatsapp_access_token: str = os.environ.get("WHATSAPP_ACCESS_TOKEN", "")
     whatsapp_phone_number_id: str = os.environ.get("WHATSAPP_PHONE_NUMBER_ID", "")
+
+    # Sub Agentes API
+    api_prices_url: str = os.environ.get("API_PRICES_URL", "http://localhost:8001/api/v1/precios")
 
     class Config:
         env_file = ".env"

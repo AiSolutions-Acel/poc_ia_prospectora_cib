@@ -38,7 +38,6 @@ mock_precio_adapter = MockPrecioAdapter(mock_db)
 # Orchestrators
 bedrock_orchestrator = BedrockRagOrchestrator(bedrock_adapter, bedrock_adapter, s3_vector_adapter_bedrock)
 azure_orchestrator = AzureRagOrchestrator(azure_adapter, azure_adapter, s3_vector_adapter_azure)
-supervisor_orchestrator = SupervisorAgentOrchestrator(azure_adapter, s3_vector_adapter_azure, mock_db)
 
 # Global variables for Use Cases
 query_rag_bedrock_use_case = None
@@ -57,6 +56,7 @@ async def lifespan(app: FastAPI):
     rag_app_azure = azure_orchestrator.build()
     print("✅ RAG Agent Azure OpenAI (LangGraph) compilado.")
 
+    supervisor_orchestrator = SupervisorAgentOrchestrator(rag_app_azure, mock_db)
     supervisor_agent = supervisor_orchestrator.build()
     print("✅ Supervisor Agent (LangGraph + Tools) compilado.")
     
